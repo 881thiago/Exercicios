@@ -1,0 +1,160 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyPa8KQjNGCiMTZvUsGl/VzL",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/881thiago/Exercicios/blob/main/Lista_1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# *Exercicios Aula 4*\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "k2WFC37XOm8N"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## FAÇA UM PROGRAMA QUE LEIA UM NÚMERO INTEIRO E O IMPRIMA.\n"
+      ],
+      "metadata": {
+        "id": "0jG0-ccYO3_x"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "OZTVv02TOlzf",
+        "outputId": "6982dd26-ea6b-40e9-b75e-b14006dacdd9"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Valor de i é 45 e, é um valor do tipo inteiro\n"
+          ]
+        }
+      ],
+      "source": [
+        "i=45\n",
+        "tipo=type(i)\n",
+        "cond=int\n",
+        "if tipo==cond:\n",
+        "  print ('Valor de i é',i,'e, é do tipo inteiro')\n",
+        "else:\n",
+        "  print ('O valor de i não é do tipo inteiro')\n",
+        "    "
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## FAÇA UM PROGRAMA QUE LEIA UM NÚMERO REAL E O IMPRIMA.\n"
+      ],
+      "metadata": {
+        "id": "JmKpkrwLeYJp"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "r=4.5\n",
+        "tipo=type(r)\n",
+        "cond=float\n",
+        "if tipo==cond:\n",
+        "  print ('Valor de r é',r,'e, é do tipo real')\n",
+        "else:\n",
+        "  print ('O valor de r não é do tipo real')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "kBT8BNv-esUr",
+        "outputId": "f1611fa8-1ed6-4e5c-8491-11d16f5817e9"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "O valor de r não é do tipo real\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## PEÇA AO USUÁRIO PARA DIGITAR TRÊS VALORES INTEIROS E IMPRIMA A SOMA DELES.\n"
+      ],
+      "metadata": {
+        "id": "RaAQt8kFfgsD"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "UD03ywU8fnvW"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "uXN_fKH3TGJs",
+        "outputId": "48f59963-29d1-486f-9ff7-43b81a320bb7"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "float"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 69
+        }
+      ]
+    }
+  ]
+}
